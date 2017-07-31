@@ -1,13 +1,8 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 
-   <!-- Parent -->
-   <parent>
-      <groupId>org.jboss</groupId>
-      <artifactId>jboss-parent</artifactId>
-      <version>19</version>
-      <relativePath />
-   </parent>
 
    <modelVersion>4.0.0</modelVersion>
 
@@ -17,20 +12,6 @@
    <version>1.0-SNAPSHOT</version>
    <name>Aesh</name>
    <description>Æsh (Another Extendable SHell)</description>
-   <scm>
-      <connection>scm:git:git://github.com/aeshell/aesh.git</connection>
-      <developerConnection>scm:git:ssh://git@github.com/aeshell/aesh.git</developerConnection>
-      <url>http://aeshell.github.io/</url>
-      <tag>HEAD</tag>
-   </scm>
-
-   <!-- Licenses -->
-   <licenses>
-      <license>
-         <name>Apache License, Version 2.0</name>
-         <url>http://www.apache.org/licenses/LICENSE-2.0</url>
-      </license>
-   </licenses>
 
    <dependencies>
       <dependency>
